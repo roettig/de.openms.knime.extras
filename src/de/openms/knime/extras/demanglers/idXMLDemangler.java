@@ -1,4 +1,4 @@
-package de.openms.extras.demanglers;
+package de.openms.knime.extras.demanglers;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -24,7 +24,7 @@ import org.knime.core.data.DataCell;
 import org.knime.core.data.DataType;
 
 import de.openms.OpenMS.knime.nodes.mimetypes.idXMLFileCell;
-import de.openms.extras.types.idXMLEntryCell;
+import de.openms.knime.extras.types.idXMLEntryCell;
 
 public class idXMLDemangler implements Demangler
 {

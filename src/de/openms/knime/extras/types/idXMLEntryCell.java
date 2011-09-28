@@ -1,4 +1,4 @@
-package de.openms.extras.types;
+package de.openms.knime.extras.types;
 
 import org.knime.core.data.DataCell;
 import org.knime.core.data.DataValue;

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Fragment-Host: de.openms.OpenMS
 Bundle-Name: OpenMS Extras
-Bundle-SymbolicName: de.openms.extras;singleton:=true
+Bundle-SymbolicName: de.openms.knime.extras;singleton:=true
 Bundle-Version: 0.1.0
 Bundle-Vendor: roettig
 Bundle-ActivationPolicy: lazy
@@ -15,6 +15,6 @@ Require-Bundle: org.eclipse.core.runtime,
  org.ballproject.knime,
  de.openms.OpenMS
 Eclipse-RegisterBuddy: org.knime.core
-Export-Package: de.openms.extras.types,
- de.openms.extras.demanglers
+Export-Package: de.openms.knime.extras.types,
+ de.openms.knime.extras.demanglers
 Import-Package: de.openms.OpenMS.knime.nodes.mimetypes

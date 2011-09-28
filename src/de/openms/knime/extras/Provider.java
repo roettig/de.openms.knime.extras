@@ -1,4 +1,4 @@
-package de.openms.extras;
+package de.openms.knime.extras;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.ballproject.knime.base.mime.demangler.Demangler;
 import org.ballproject.knime.base.mime.demangler.DemanglerProvider;
 
-import de.openms.extras.demanglers.idXMLDemangler;
+import de.openms.knime.extras.demanglers.idXMLDemangler;
 
 public class Provider implements DemanglerProvider
 {

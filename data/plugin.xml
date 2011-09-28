@@ -2,6 +2,6 @@
 <?eclipse version="3.0"?>
 <plugin>   
    <extension id="OpenMS provider" name="OpenMS provider" point="org.ballproject.knime.base.mime.demangler.DemanglerProvider">
-      <demanglerprovider class="de.openms.extras.Provider"/>
+      <demanglerprovider class="de.openms.knime.extras.Provider"/>
    </extension>
 </plugin>

@@ -1,7 +1,8 @@
 <project name="pluginbuilder" default="build" basedir=".">
 
+	<property name="pluginname" value="de.openms.knime.extras"/>
 	<property name="knimeSDKpath" value="/home/roettig/Downloads/eclipse_knime_2.3.1"/>
-	<property name="temp.folder" value="${java.io.tmpdir}/temp.folder2204"/>
+	<property name="temp.folder" value="${java.io.tmpdir}/temp.folder_${pluginname}"/>
 	
 	<target name="prepare">
 		<mkdir dir="build"/>
@@ -38,6 +39,6 @@
 		<mkdir dir="${temp.folder}/package/META-INF"/>
 		<copy file="data/MANIFEST.MF" tofile="${temp.folder}/package/META-INF/MANIFEST.MF"/>
 		
-		<zip destfile="build/plugin.jar" basedir="${temp.folder}/package"/>
+		<zip destfile="build/${pluginname}.jar" basedir="${temp.folder}/package"/>
 	</target>
 </project>
