@@ -55,13 +55,6 @@ public class idXMLDemangler implements Demangler
 		return null;
 	}
 
-	@Override
-	public void close()
-	{
-		// TODO Auto-generated method stub
-		
-	}
-
 	private static class idXMLFileDemanglerDelegate implements Iterator<DataCell>
 	{
 		private byte[] data;
@@ -123,10 +116,6 @@ public class idXMLDemangler implements Demangler
 		public void remove()
 		{
 			// NOP
-		}
-		
-		public void close()
-		{
 		}
 	}
 
