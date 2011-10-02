@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Fragment-Host: de.openms.OpenMS
+Fragment-Host: org.ballproject.knime
 Bundle-Name: OpenMS Extras
 Bundle-SymbolicName: de.openms.knime.extras;singleton:=true
 Bundle-Version: 0.1.0
